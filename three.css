@@ -1,12 +1,23 @@
 body{
-    width: 1440px;
+    width: auto;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: hsl(0, 0%, 95%);
 }
 .main-container{
-    margin: 0;
-    padding: 10% 15%;
+    width: 100%;
+    margin: 10% auto;
+    padding: 0;
     display: flex;
-    background: hsl(0, 0%, 95%);
+    justify-content: center;
     font-size: 15px;
+}
+h1{
+    position: absolute;
+    right: 10000px;
 }
 .main-container>div{
     margin: 0;
@@ -58,7 +69,7 @@ body{
     color: hsl(179, 100%, 13%);
 }
 
-@media only screen and (max-width:650px){
+@media only screen and (max-width:860px){
     body{
         width: auto;
         margin: 0;
